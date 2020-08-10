@@ -22,11 +22,12 @@
    end
    
    def songs
-     song.all.select {|song| song.artist == 0}
+     song.all.select {|song| song.artist == self}
+   end
      
-  def self.song_count
+   def self.song_count
     song.all.count
-  end
+   end
      
    
  end
