@@ -23,11 +23,10 @@
    
    def songs
      
-     def self.song_count
-       song.all.count
-     end
+  def self.song_count
+    song.all.count
+  end
      
- end
    
  end
  
