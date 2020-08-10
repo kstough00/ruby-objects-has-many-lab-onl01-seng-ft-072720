@@ -21,7 +21,7 @@
      @@song_count += 1 
    end
    
-   def songssong.all.select {
+   def songssong.all.select {|song| song.artist == self}
    
  end
  
