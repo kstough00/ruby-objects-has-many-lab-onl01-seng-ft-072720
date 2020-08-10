@@ -22,7 +22,7 @@
    end
    
    def songs
-     song.all.select {|song|
+     song.all.select {|song| song.artist == 0}
      
   def self.song_count
     song.all.count
